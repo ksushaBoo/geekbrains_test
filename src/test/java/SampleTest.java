@@ -27,7 +27,6 @@ public class SampleTest {
     public void sampleTest() {
         MobileElement el1 = (MobileElement) driver.findElement("xpath", "//android.widget.TextView[@content-desc=\"Phone\"]");
         el1.click();
-        el1.click();;
     }
 
     @After
